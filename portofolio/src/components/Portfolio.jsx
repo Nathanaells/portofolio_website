@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {
   Github,
   Linkedin,
@@ -163,7 +163,6 @@ const Portfolio = () => {
 
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
-      {/* Navigation */}
       <nav
         className={`fixed w-full z-50 transition-all duration-300 ${
           isScrolled
@@ -173,7 +172,7 @@ const Portfolio = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-14 sm:h-16">
-            <div className="text-xl sm:text-2xl font-bold text-white">NS</div>
+            <div className="text-xl sm:text-2xl font-bold text-white">ND</div>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8">
@@ -240,7 +239,7 @@ const Portfolio = () => {
         <div className="max-w-4xl mx-auto text-center w-full">
           <div className="mb-6 sm:mb-8 animate-fade-in">
             <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-4 sm:mb-6 rounded-full bg-white flex items-center justify-center text-4xl sm:text-5xl font-bold text-black">
-              NS
+              ND
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4 text-white px-2">
               Nathanael David
@@ -249,9 +248,14 @@ const Portfolio = () => {
               Fullstack Developer
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-6 sm:mb-8 px-4 leading-relaxed">
-              Front-End Developer with experience building responsive web and
-              mobile applications. Passionate about creating elegant solutions
-              and delivering exceptional user experiences.
+              Full-Stack Developer with experience building and deploying web
+              applications using Node.js, Express, React, Next.js, and
+              TypeScript. Familiar with database management using MongoDB and
+              Sequelize ORM, as well as API development and testing with Jest
+              and Supertest. Experienced in deploying applications on Vercel and
+              AWS, with a practical understanding of both frontend and backend
+              workflows. Always keen to learn new technologies and improve
+              existing solutions.
             </p>
           </div>
 
