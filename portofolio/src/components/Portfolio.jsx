@@ -33,39 +33,63 @@ const Portfolio = () => {
       title: "WeatherApp",
       description:
         "Fullstack app with Express & Postgres, React + Globe.gl front-end, Google OAuth, and Google-Gemini chatbot for weather queries from database and user input.",
-      tech: ["React", "Node.js", "PostgreSQL", "Express", "Globe.gl"],
+      tech: [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Express",
+        "Globe.gl",
+        "Supabase",
+        "Sequelize",
+        "Postgres",
+      ],
       link: "https://weatherapp-zeta-bice.vercel.app/", // Ganti dengan link project Anda
-      github: "#", // Ganti dengan link GitHub Anda
+      github: "https://github.com/Nathanaells/WeatherApp", // Ganti dengan link GitHub Anda
     },
     {
-      title: "Task Management App",
+      title: "Type Warrior",
       description:
-        "Collaborative task management tool built with React Native and MongoDB. Real-time updates using GraphQL subscriptions and team collaboration features.",
-      tech: ["React Native", "GraphQL", "MongoDB", "Apollo"],
-      link: "#",
-      github: "#",
+        "Type Warrior – real-time typing battle game with React, Express & Postgres for REST API, Socket.io rooms, and Google Gemini–generated challenges.",
+      tech: [
+        "React",
+        "Postgres",
+        "Supabase",
+        "Express",
+        "SequelizeORM",
+        "WebSocket",
+        "Gemini Ai",
+      ],
+      link: "https://gp-1-pink.vercel.app",
+      github: "https://github.com/Nathanaells/WeatherApp",
     },
     {
-      title: "Social Media Dashboard",
+      title: "Mobile Social Media Dashboard",
       description:
-        "Analytics dashboard for social media management with REST API integration. Built with React and Tailwind CSS featuring responsive design.",
-      tech: ["React", "Tailwind CSS", "REST API", "Chart.js"],
-      link: "#",
-      github: "#",
+        "Social Media App built with React Native, Apollo GraphQL, and MongoDB Compass, featuring user posts, likes, comments.",
+      tech: [
+        "React Native",
+        "GraphQL",
+        "Apollo GraphQL",
+        "MongoDb Compass",
+        "Redis",
+      ],
+      link: "https://expo.dev/preview/update?message=Pinterest&updateRuntimeVersion=1.0.0&createdAt=2025-11-29T13%3A47%3A06.855Z&slug=exp&projectId=469edd0e-b893-4c94-ae81-48f0d69a0164&group=66f6ab87-0b0f-4150-bf9a-fc7c474fd947",
+      github: "https://github.com/Nathanaells/Mobile-Social-Media-App",
     },
     {
-      title: "DriveSmart Educational Game",
+      title: "Simple Website Marketplace",
       description:
-        "Interactive educational game with UX/UI components and Behaviour Tree logic. Developed during internship at Spaceland Studio.",
-      tech: ["Game Design", "UX/UI", "Interactive Design"],
-      link: "#",
-      github: "#",
+        "Simple Marketplace – fullstack app built with Next.js and TypeScript, featuring infinite scroll and delayed (debounced) search for fetching product data.",
+      tech: ["Next.js", "TypeScript", "MongoDb Compass"],
+      link: "https://my-uniqlo.vercel.app/home",
+      github: "https://github.com/Nathanaells/simple-marketplace",
     },
   ];
 
   const skills = {
     frontend: [
       "React.js",
+      "React Native",
       "Next.js",
       "Tailwind CSS",
       "HTML5",
