@@ -308,7 +308,7 @@ const Portfolio = () => {
                 I'm a Fullstack Developer with a Bachelor's degree in
                 Information Systems from Universitas Katolik Soegijapranata
                 (GPA: 3.62). Recently graduated from Hacktiv8's intensive
-                Fullstack JavaScript Program with a score of 98.
+                Fullstack JavaScript Program with a score of 96.
               </p>
               <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed">
                 Skilled in building responsive web and mobile applications using
@@ -355,7 +355,7 @@ const Portfolio = () => {
                       Hacktiv8 Graduate
                     </p>
                     <p className="text-gray-400 text-sm sm:text-base mt-1">
-                      Final Score: 98/100
+                      Final Score: 96/100
                     </p>
                   </div>
                 </div>
@@ -373,7 +373,7 @@ const Portfolio = () => {
             <div className="flex items-center gap-3">
               <Phone className="text-gray-300 flex-shrink-0" size={20} />
               <span className="text-gray-300 text-sm sm:text-base lg:text-lg break-all">
-                081227446440
+                081227446550
               </span>
             </div>
           </div>
