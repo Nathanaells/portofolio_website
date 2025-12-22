@@ -307,7 +307,7 @@ const Portfolio = () => {
               <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed mb-4 sm:mb-6">
                 I'm a Fullstack Developer with a Bachelor's degree in
                 Information Systems from Universitas Katolik Soegijapranata
-                (GPA: 3.62). Recently graduated from Hacktiv8's intensive
+                (GPA: 3.65). Recently graduated from Hacktiv8's intensive
                 Fullstack JavaScript Program with a score of 96.
               </p>
               <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed">
