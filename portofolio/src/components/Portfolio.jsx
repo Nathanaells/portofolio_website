@@ -119,7 +119,7 @@ const Portfolio = () => {
       company: "Hacktiv8 Indonesia",
       period: "Sept 2025 - Dec 2025",
       description:
-        "Graduated with final score of 98. Intensive training in frontend and backend development, API integration, and database implementation.",
+        "Graduated with final score of 96. Intensive training in frontend and backend development, API integration, and database implementation.",
       achievements: [
         "Built 10+ full-stack projects",
         "Mastered React and Node.js ecosystem",
