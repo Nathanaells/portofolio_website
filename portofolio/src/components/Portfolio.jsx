@@ -60,7 +60,7 @@ const Portfolio = () => {
         "Gemini Ai",
       ],
       link: "https://gp-1-pink.vercel.app",
-      github: "https://github.com/Nathanaells/WeatherApp",
+      github: "https://github.com/TeamGP-1/GP-1",
     },
     {
       title: "Mobile Social Media Dashboard",
@@ -84,27 +84,77 @@ const Portfolio = () => {
       link: "https://my-uniqlo.vercel.app/home",
       github: "https://github.com/Nathanaells/simple-marketplace",
     },
+    {
+  title: "Monopoly Project",
+  description:
+    "Web based Monopoly game built using ASP NET Core Web API and React TypeScript featuring property management turn based gameplay Chance cards Community Chest prison mechanics and complete Monopoly game rules.",
+  tech: [
+    "ASP.NET Core",
+    "React",
+    "TypeScript",
+    "C#",
+    "Entity Framework",
+    "REST API"
+  ],
+  link: "https://github.com/Nathanaells/MonopolyProject",
+  github: "https://github.com/Nathanaells/MonopolyProject"
+},
+    {
+  title: "WangKost",
+  description:
+    "Property management platform with payment integration background job scheduling and automated workflows. Implemented endpoint validation MongoDB integration and asynchronous processing.",
+  tech: [
+    "Node.js",
+    "MongoDB",
+    "Bull",
+    "Node Cron",
+    "Midtrans",
+    "Twilio",
+    "N8N"
+  ],
+  link: "https://github.com/Nathanaells/WangKost",
+  github: "https://github.com/Nathanaells/WangKost"
+}
   ];
 
   const skills = {
-    frontend: [
-      "React.js",
-      "React Native",
-      "Next.js",
-      "Tailwind CSS",
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-    ],
+  frontend: [
+  "React.js",
+  "React Native",
+  "Next.js",
+  "TypeScript",
+  "Tailwind CSS",
+  "HTML5",
+  "CSS3",
+  "JavaScript"
+],
     backend: [
-      "Node.js",
-      "Express.js",
-      "REST API",
-      "Apollo GraphQL",
-      "PostgreSQL",
-      "MongoDB",
-    ],
-    tools: ["Git", "GitHub", "Postman", "VSCode", "Jest"],
+  "Node.js",
+  "Express.js",
+  "ASP.NET Core",
+  ".NET Web API",
+  "REST API",
+  "Apollo GraphQL",
+  "SignalR",
+  "Entity Framework Core",
+  "PostgreSQL",
+  "MongoDB",
+  "Redis",
+  "SQLite"
+],
+   tools: [
+  "Git",
+  "GitHub",
+  "Postman",
+  "VSCode",
+  "Jest",
+  "Docker",
+  "Swagger",
+  "Mosquitto",
+  "Rancher",
+  "AutoMapper",
+  "FluentValidation"
+],
     soft: [
       "Critical Thinking",
       "Problem Solving",
@@ -150,6 +200,20 @@ const Portfolio = () => {
         "Produced content for multiple platforms",
       ],
     },
+    {
+  role: "Software Engineering Bootcamp",
+  company: "Formulatrix",
+  period: "Apr 2026 - May 2026",
+  description:
+    "Completed an intensive Software Engineering Bootcamp and achieved Grade A.",
+  achievements: [
+    "Built RESTful APIs using ASP.NET Core Web API",
+    "Applied Dependency Injection AutoMapper and FluentValidation",
+    "Developed microservices using SQLite",
+    "Worked with Raspberry Pi and IoT integration",
+    "Implemented unit testing debugging and design patterns"
+  ]
+}
   ];
 
   const scrollToSection = (sectionId) => {
